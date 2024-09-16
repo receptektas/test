@@ -45,7 +45,7 @@
   </tr>
   <tr>
     <td style="text-align: center; vertical-align: middle;">
-      <img src="23_human_io/original.png" alt="Original Image 5"style="float: right; margin-left: 900px;" width="250"/>
+      <img src="23_human_io/original.png" alt="Original Image 5" width="250"/>
       <p>Original Image 5 - Human Portrait</p>
     </td>
     <td style="text-align: center; vertical-align: middle;">
