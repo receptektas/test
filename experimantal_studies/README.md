@@ -11,16 +11,22 @@ This development effort resulted in significant progress, though not all planned
 ## Completed Features
 - **ComfyUI Server Integration:** The application successfully launches and manages a ComfyUI server instance in the background without requiring direct user intervention.
 - **User Interface Design:** A basic but functional interface was developed, allowing users to interact with key ComfyUI functionalities in an intuitive manner.
-- **Task Management:** Core tasks such as starting, stopping, and monitoring the ComfyUI processes were fully integrated into the desktop application.
-- **Error Handling & Logs:** Basic error handling was implemented, including logging of any server or user interface-related issues.
+- **Task Queue Management:** All user actions are queued for sequential processing, ensuring orderly execution of tasks.
+- **Task Status Tracking:** Completed tasks are marked as "Completed" in the queue but remain in the list for user reference.
+- **Cancel Options:** Users can cancel individual tasks in the queue or choose to cancel all queued tasks at once.
+- **Task Clearing:** A "Clear All Tasks" option allows users to remove all tasks from the queue with a single action.
+- **Dark Mode & Light Mode Support:** The application supports both dark mode and light mode, allowing users to switch between themes as needed.
+- **Progress Bar for Queue Items:** Each queued task is displayed with an associated progress bar, giving real-time feedback on task execution.
+- **Task Preview on Double-Click:** Double-clicking a task in the queue brings it to the main screen for detailed view and interaction.
 
 ## Ongoing Development
-- **Advanced UI/UX Enhancements:** Further refinements to improve usability, including better navigation, responsive design, and theme support, are under development.
-- **Customizable Workflow Management:** Integration of a system for users to create, save, and load custom ComfyUI workflows within the application is in progress.
-- **Automated Update Mechanism:** A feature for automatically checking for updates to the ComfyUI server and applying them is under design.
-- **Extended Error Handling & Notifications:** Improvements to error reporting and real-time notifications for server or user errors are planned for future releases.
+- **Custom Output Management:** A feature to allow users to define custom output paths and formats for completed tasks is under development.
+- **Output Image Preview:** The ability to display the output image directly within the application is currently being implemented.
+- **Enhanced Error Management:** Improvements are being made to handle a wider range of errors with more robust and detailed reporting.
+- **Full ComfyUI Integration:** Efforts are ongoing to achieve complete integration with ComfyUI, allowing the desktop application to support all advanced workflows and functionalities offered by ComfyUI.
 
 All relevant documentation and code for this experimental study can be found in the [`experimental_studies/`](./experimental_studies/) directory.
+
 
 
 ![Application Screenshot](./images/app_screen.png)
