@@ -46,24 +46,13 @@ The main objective of this project is to create a ComfyUI workflow that:
    ```
 5. Download the necessary model checkpoints and place them in the `models` directory:
 
-   ### Stable Diffusion Models
-   - [`sd_xl_base_1.0.safetensors`](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/sd_xl_base_1.0.safetensors) - Stable Diffusion XL Base 1.0
+   ### Stable Diffusion Model
    - [`Van-Gogh-Style-lvngvncnt-v2.ckpt`](https://huggingface.co/dallinmackay/Van-Gogh-diffusion/blob/main/Van-Gogh-Style-lvngvncnt-v2.ckpt) - Van Gogh Style Diffusion Model
-   - [`vanGoghDiffusion_v1.ckpt`](https://civitai.com/models/91/van-gogh-diffusion) - Van Gogh Diffusion Model v1
 
-   ### ControlNet Models
+   ### ControlNet Model
    - [`controlnet11Models_canny.safetensors`](https://civitai.com/models/38784?modelVersionId=44716) - ControlNet Canny Edge Model
-   - [`controlnet11Models_softedge.safetensors`](https://civitai.com/models/38784?modelVersionId=44716) - ControlNet Soft Edge Model
 
-   ### LoRA Models
-   - [`Van_Gogh_Style.safetensors`](https://civitai.com/models/) - Van Gogh Style LoRA
-   - [`vincent_van_gogh_xl.safetensors`](https://civitai.com/models/123885/vincent-van-gogh-xl) - Vincent Van Gogh XL LoRA
-
-   ### VAE Models
-   - [`sdxl_vae.safetensors`](https://huggingface.co/stabilityai/sdxl-vae/blob/main/sdxl_vae.safetensors) - Stable Diffusion XL VAE
-   - [`xlVAEC_f2.safetensors`](https://civitai.com/models/152040/xlvaec) - XLVAE-C Model
-
-   Note: While all these models were tested during development, the current workflow uses a specific subset for optimal performance. Refer to the [Workflow Description](#workflow-description) section for details on actively used models.
+   Note: These are the primary models used in the current workflow. For information on other tested models, see the [Experimental Models](#experimental-models) section.
 
 6. Copy the custom node scripts to the `custom_nodes` directory:
    - `PerformanceMeasurementStartNode.py`
@@ -137,10 +126,6 @@ The project has been tested with various models:
 - LoRA Models: `Van_Gogh_Style.safetensors`, `vincent_van_gogh_xl.safetensors`
 - VAE Models: `sdxl_vae.safetensors`, `xlVAEC_f2.safetensors`
 
-5. Download the necessary model checkpoints and place them in the `models` directory:
-   - Stable Diffusion model: `Van-Gogh-Style-lvngvncnt-v2.ckpt`
-   - ControlNet model: `controlnet11Models_canny.safetensors`
-
 ### Model Selection Rationale
 
 After extensive testing and performance analysis, we have determined that the combination of `Van-Gogh-Style-lvngvncnt-v2.ckpt` for the main Stable Diffusion model and `controlnet11Models_canny.safetensors` for ControlNet provides the optimal balance of performance, simplicity, and efficiency for our Van Gogh style transfer task.
@@ -185,6 +170,60 @@ The LoRA models (`Van_Gogh_Style.safetensors` and `vincent_van_gogh_xl.safetenso
 
 In conclusion, our rigorous testing and analysis demonstrated that the lean combination of `Van-Gogh-Style-lvngvncnt-v2.ckpt` and `controlnet11Models_canny.safetensors` provides the most efficient, consistent, and high-quality results for our Van Gogh style transfer task. This setup minimizes computational overhead while maximizing output quality, allowing for a more streamlined and reliable workflow.
 
+## Performance Measurement
+
+To facilitate comprehensive performance analysis of the workflow, we've implemented two custom nodes:
+
+1. **PerformanceMeasurementStartNode**
+   - Function: Initializes performance tracking at the process inception.
+   - Metrics Captured: Initial timestamp and GPU memory allocation.
+
+2. **PerformanceMeasurementEndNode**
+   - Function: Computes and reports performance metrics upon process completion.
+   - Metrics Calculated: Total execution time, GPU memory utilization delta, and image similarity metrics.
+
+### Core Performance Metrics
+
+1. **Execution Time**: 
+   - Definition: Total elapsed time from style transfer initiation to completion.
+   - Implementation: Utilizes high-precision system timer for nanosecond accuracy.
+   - Significance: Critical for assessing workflow efficiency and user experience optimization.
+
+2. **GPU Memory Utilization**: 
+   - Definition: Peak GPU memory consumption and net change throughout the process.
+   - Implementation: Leverages GPU management libraries for real-time memory telemetry.
+   - Significance: Essential for resource optimization and scaling considerations.
+
+### Image Similarity Metrics
+
+1. **Structural Similarity Index Measure (SSIM)**:
+   - Definition: Quantifies structural similarity between two images.
+   - Value Range: [-1, 1], where 1 indicates perfect similarity.
+   - Significance: Correlates well with human visual perception, capturing structural modifications effectively.
+
+2. **Feature Similarity (FSIM)**:
+   - Definition: Compares high-level features of images using deep learning models.
+   - Value Range: [0, 1], where 1 signifies identical feature representations.
+   - Significance: Effective in evaluating preservation and transformation of high-level features in style transfer.
+
+3. **Perceptual Loss**:
+   - Definition: Measures perceptual divergence between two images using pre-trained neural networks.
+   - Value Interpretation: Lower values indicate higher perceptual similarity.
+   - Significance: Provides a measure closely aligned with human perception, crucial for evaluating style transfer quality.
+
+These metrics were carefully selected to provide a holistic evaluation of both the technical performance and output quality of the style transfer process. While SSIM offers insights into overall structural preservation, Feature Similarity and Perceptual Loss are particularly pertinent for assessing high-level and perceptual attributes crucial in artistic style transfer tasks.
+
+The implementation leverages state-of-the-art computer vision libraries and deep learning models, ensuring robust and reliable performance evaluation. Our custom nodes integrate seamlessly with the ComfyUI workflow, allowing for real-time performance monitoring without impacting the core style transfer process.
+
+By analyzing these metrics, users can:
+1. Evaluate workflow efficiency through execution time and GPU utilization.
+2. Assess the fidelity of the output image to the original using SSIM.
+3. Gauge the effectiveness and quality of style transfer via Feature Similarity and Perceptual Loss.
+
+This comprehensive analysis provides the necessary insights for iterative improvement of both workflow performance and output quality. It enables data-driven optimization of the style transfer pipeline, balancing computational efficiency with artistic fidelity.
+
+For further details on the implementation and usage of these custom nodes, including advanced configuration options and integration guidelines, refer to the `custom_nodes/performance_measurement.md` file in the project repository.
+
 ## Experimental Studies
 
 ### PyQt5 Desktop Application
@@ -196,20 +235,6 @@ An experimental desktop application was developed using PyQt5 to provide a user-
 - Handle all ComfyUI operations seamlessly
 
 The development of this application progressed significantly but was not fully completed before the project conclusion. All relevant documentation and code for this experimental study can be found in the `experimental_studies/` directory.
-
-## Performance Measurement
-
-Two custom nodes were developed to measure the performance of the workflow:
-
-1. **PerformanceMeasurementStartNode**: Initializes performance tracking at the start of the process.
-2. **PerformanceMeasurementEndNode**: Calculates and reports performance metrics at the end of the process.
-
-These nodes measure:
-- Execution time
-- GPU memory usage
-- Image similarity metrics (SSIM, Feature Similarity, Perceptual Loss, etc.)
-
-For detailed information on these custom nodes, refer to the `custom_nodes/performance_measurement.md` file.
 
 ## Troubleshooting
 
