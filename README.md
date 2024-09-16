@@ -61,7 +61,9 @@ The main objective of this project is to create a ComfyUI workflow that:
 7. Copy the custom node scripts to the `custom_nodes` directory:
    - `PerformanceMeasurementStartNode.py`
    - `PerformanceMeasurementEndNode.py`
-
+  
+   * For information on custom nodes, see the [Custom Nodes](./Python_Scripts/custom_nodes) section.
+   * 
    These custom nodes are essential for measuring the performance of the workflow. They track execution time, GPU usage, and image quality metrics. For more details on their functionality, refer to the [Performance Measurement](#performance-measurement) section.
 
 ## Usage
