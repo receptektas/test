@@ -26,7 +26,7 @@ The main objective of this project is to create a ComfyUI workflow that:
 - Accepts user-uploaded images in common formats (JPEG, PNG)
 - Preprocesses the images for compatibility with the style transfer models
 - Applies a Van Gogh style transfer using Stable Diffusion and ControlNet
-- Outputs a high-quality, stylized version of the input image
+- Outputs a stylized version of the input image
 
 ## Installation
 
@@ -45,12 +45,31 @@ The main objective of this project is to create a ComfyUI workflow that:
    pip install comfyui-manager anyline crystools pythongosssss
    ```
 5. Download the necessary model checkpoints and place them in the `models` directory:
-   - Stable Diffusion models: `sd_xl_base_1.0.safetensors`, `Van-Gogh-Style-lvngvncnt-v2.ckpt`, `vanGoghDiffusion_v1.ckpt`
-   - ControlNet models: `controlnet11Models_canny.safetensors`, `controlnet11Models_softedge.safetensors`, etc.
-   - LoRA models: `Van_Gogh_Style.safetensors`, `vincent_van_gogh_xl.safetensors`
-   - VAE models: `sdxl_vae.safetensors`, `xlVAEC_f2.safetensors`
 
-6. Copy the custom node scripts (`PerformanceMeasurementStartNode.py` and `PerformanceMeasurementEndNode.py`) to the `custom_nodes` directory.
+   ### Stable Diffusion Models
+   - [`sd_xl_base_1.0.safetensors`](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/sd_xl_base_1.0.safetensors) - Stable Diffusion XL Base 1.0
+   - [`Van-Gogh-Style-lvngvncnt-v2.ckpt`](https://huggingface.co/dallinmackay/Van-Gogh-diffusion/blob/main/Van-Gogh-Style-lvngvncnt-v2.ckpt) - Van Gogh Style Diffusion Model
+   - [`vanGoghDiffusion_v1.ckpt`](https://civitai.com/models/91/van-gogh-diffusion) - Van Gogh Diffusion Model v1
+
+   ### ControlNet Models
+   - [`controlnet11Models_canny.safetensors`](https://civitai.com/models/38784?modelVersionId=44716) - ControlNet Canny Edge Model
+   - [`controlnet11Models_softedge.safetensors`](https://civitai.com/models/38784?modelVersionId=44716) - ControlNet Soft Edge Model
+
+   ### LoRA Models
+   - [`Van_Gogh_Style.safetensors`](https://civitai.com/models/) - Van Gogh Style LoRA
+   - [`vincent_van_gogh_xl.safetensors`](https://civitai.com/models/123885/vincent-van-gogh-xl) - Vincent Van Gogh XL LoRA
+
+   ### VAE Models
+   - [`sdxl_vae.safetensors`](https://huggingface.co/stabilityai/sdxl-vae/blob/main/sdxl_vae.safetensors) - Stable Diffusion XL VAE
+   - [`xlVAEC_f2.safetensors`](https://civitai.com/models/152040/xlvaec) - XLVAE-C Model
+
+   Note: While all these models were tested during development, the current workflow uses a specific subset for optimal performance. Refer to the [Workflow Description](#workflow-description) section for details on actively used models.
+
+6. Copy the custom node scripts to the `custom_nodes` directory:
+   - `PerformanceMeasurementStartNode.py`
+   - `PerformanceMeasurementEndNode.py`
+
+   These custom nodes are essential for measuring the performance of the workflow. They track execution time, GPU usage, and image quality metrics. For more details on their functionality, refer to the [Performance Measurement](#performance-measurement) section.
 
 ## Usage
 
