@@ -52,9 +52,13 @@ The main objective of this project is to create a ComfyUI workflow that:
    ### ControlNet Model
    - [`controlnet11Models_canny.safetensors`](https://civitai.com/models/38784?modelVersionId=44716) - ControlNet Canny Edge Model
 
-   Note: These are the primary models used in the current workflow. For information on other tested models, see the [Experimental Models](#experimental-models) section.
+6. Place these files in the following directories:
+     * `ComfyUI/models/checkpoints/` for `Van-Gogh-Style-lvngvncnt-v2.ckpt`
+     * `ComfyUI/models/controlnet/` for `controlnet11Models_canny.safetensors`
+   
+      Note: These are the primary models used in the current workflow. For information on other tested models, see the [Experimental Models](#experimental-models) section.
 
-6. Copy the custom node scripts to the `custom_nodes` directory:
+7. Copy the custom node scripts to the `custom_nodes` directory:
    - `PerformanceMeasurementStartNode.py`
    - `PerformanceMeasurementEndNode.py`
 
