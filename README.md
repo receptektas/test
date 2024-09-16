@@ -12,9 +12,10 @@
 7. [Experimental Models](#experimental-models)
 8. [Experimental Studies](#experimental-studies)
 9. [Performance Measurement](#performance-measurement)
-10. [Troubleshooting](#troubleshooting)
-11. [Contributing](#contributing)
-12. [License](#license)
+10. [Conclusion](#conclusion)
+11. [Troubleshooting](#troubleshooting)
+12. [Contributing](#contributing)
+13. [License](#license)
 
 ## Introduction
 
@@ -241,6 +242,30 @@ An experimental desktop application was developed using PyQt5 to provide a user-
 - Handle all ComfyUI operations seamlessly
 
 The development of this application progressed significantly but was not fully completed before the project conclusion. All relevant documentation and code for this experimental study can be found in the `experimental_studies/` directory.
+
+## Conclusion
+
+In this project, we explored the application of Van Gogh's style transfer using *Starry Night* as the primary reference. Key observations and technical insights from the experiments are summarized below:
+
+### 1. Van Gogh's Artistic Influence on Human Figures
+- **Limited Human Representations:** Van Gogh’s work features only a few human depictions, which are often highly stylized.
+- **Transformation Outcome:** Due to this limitation, the style transfer model consistently transformed diverse human subjects into figures resembling the singular human depictions found in Van Gogh's oeuvre.
+- **Implication:** This highlights a limitation in style transfer when the reference style lacks variability in key elements, such as human forms.
+
+### 2. Transformation of Non-Human Objects
+- **Mechanical Objects:** Images containing vehicles (e.g., cars, trucks) resulted in unexpected transformations.
+- **Reinterpretation:** The model reinterpreted these mechanical objects into organic forms like buildings, trees, or abstract human shapes.
+- **Reasoning:** The neural network adapted these objects to match structures more frequently found in Van Gogh’s style, filling in gaps where Van Gogh had not depicted such modern objects.
+
+### 3. Technical Findings
+- **Model Dependence on Dataset:** The results demonstrate that the model heavily relies on the reference dataset, which in this case lacked diversity in certain visual elements.
+- **Future Enhancements:** 
+  - Exploring **multi-style fusion approaches** could mitigate content discrepancies.
+  - Implementing **adaptive style transfer networks** might allow more accurate transformations for a wider range of input images.
+
+### 4. Importance of Understanding the Reference Style
+- **Rigid Pattern Adherence:** The model adhered strongly to certain stylistic patterns in Van Gogh’s work, which can limit its ability to generalize across various input types.
+- **Future Work:** Improving model flexibility, especially for objects that lack clear analogs in Van Gogh’s style, should be a priority in future iterations.
 
 ## Troubleshooting
 
