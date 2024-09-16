@@ -25,8 +25,6 @@ This development effort resulted in significant progress, though not all planned
 - **Enhanced Error Management:** Improvements are being made to handle a wider range of errors with more robust and detailed reporting.
 - **Full ComfyUI Integration:** Efforts are ongoing to achieve complete integration with ComfyUI, allowing the desktop application to support all advanced workflows and functionalities offered by ComfyUI.
 
-All relevant documentation and code for this experimental study can be found in the [`experimental_studies/`](./experimental_studies/) directory.
-
 
 
 ![Application Screenshot](./images/app_screen.png)
