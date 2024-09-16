@@ -23,4 +23,4 @@ This development effort resulted in significant progress, though not all planned
 All relevant documentation and code for this experimental study can be found in the [`experimental_studies/`](./experimental_studies/) directory.
 
 
-![Application Screenshot](./images/app_main.png)
+![Application Screenshot](./images/app_screen.png)
