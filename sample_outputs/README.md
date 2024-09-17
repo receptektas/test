@@ -1,56 +1,12 @@
-<table>
-  <tr>
-    <th>Original Image</th>
-    <th>Generated Image</th>
-  </tr>
-  <tr>
-    <td style="text-align: center; vertical-align: middle;">
-      <img src="1_outdoor_io/original.jpg" alt="Original Image 1" width="400"/>
-      <p>Original Image 1 - Outdoor Scene</p>
-    </td>
-    <td style="text-align: center; vertical-align: middle;">
-      <img src="1_outdoor_io/generated.png" alt="Generated Image 1" width="250"/>
-      <p>Generated Image 1 - Model Output</p>
-    </td>
-  </tr>
-  <tr>
-    <td style="text-align: center; vertical-align: middle;">
-      <img src="3_outdoor_io/original.jpg" alt="Original Image 2" width="400"/>
-      <p>Original Image 2 - Outdoor Scene</p>
-    </td>
-    <td style="text-align: center; vertical-align: middle;">
-      <img src="3_outdoor_io/generated.png" alt="Generated Image 2" width="250"/>
-      <p>Generated Image 2 - Model Output</p>
-    </td>
-  </tr>
-  <tr>
-    <td style="text-align: center; vertical-align: middle;">
-      <img src="4_outdoor_io/original.jpg" alt="Original Image 3" width="400"/>
-      <p>Original Image 3 - Outdoor Scene</p>
-    </td>
-    <td style="text-align: center; vertical-align: middle;">
-      <img src="4_outdoor_io/generated.png" alt="Generated Image 3" width="250"/>
-      <p>Generated Image 3 - Model Output</p>
-    </td>
-  </tr>
-  <tr>
-    <td style="text-align: center; vertical-align: middle;">
-      <img src="6_outdoor_io/original.jpg" alt="Original Image 4" width="400"/>
-      <p>Original Image 4 - Outdoor Scene</p>
-    </td>
-    <td style="text-align: center; vertical-align: middle;">
-      <img src="6_outdoor_io/generated.png" alt="Generated Image 4" width="250"/>
-      <p>Generated Image 4 - Model Output</p>
-    </td>
-  </tr>
-  <tr>
-    <td style="text-align: center; vertical-align: middle;">
-      <img src="23_human_io/original.png" alt="Original Image 5" width="250"/>
-      <p>Original Image 5 - Human Portrait</p>
-    </td>
-    <td style="text-align: center; vertical-align: middle;">
-      <img src="23_human_io/generated.png" alt="Generated Image 5" width="250"/>
-      <p>Generated Image 5 - Model Output</p>
-    </td>
-  </tr>
-</table>
+| Original Image | Generated Image |
+|:--------------:|:---------------:|
+| <img src="1_outdoor_io/original.jpg" width="400" alt="Original Image 1"/> | <img src="1_outdoor_io/generated.png" width="250" alt="Generated Image 1"/> |
+| Original Image 1 - Outdoor Scene | Generated Image 1 - Model Output |
+| <img src="3_outdoor_io/original.jpg" width="400" alt="Original Image 2"/> | <img src="3_outdoor_io/generated.png" width="250" alt="Generated Image 2"/> |
+| Original Image 2 - Outdoor Scene | Generated Image 2 - Model Output |
+| <img src="4_outdoor_io/original.jpg" width="400" alt="Original Image 3"/> | <img src="4_outdoor_io/generated.png" width="250" alt="Generated Image 3"/> |
+| Original Image 3 - Outdoor Scene | Generated Image 3 - Model Output |
+| <img src="6_outdoor_io/original.jpg" width="400" alt="Original Image 4"/> | <img src="6_outdoor_io/generated.png" width="250" alt="Generated Image 4"/> |
+| Original Image 4 - Outdoor Scene | Generated Image 4 - Model Output |
+| <img src="24_human_io/original.png" width="250" alt="Original Image 5"/> | <img src="24_human_io/generated.png" width="250" alt="Generated Image 5"/> |
+| Original Image 5 - Human Portrait | Generated Image 5 - Model Output |
