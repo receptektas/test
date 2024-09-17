@@ -186,3 +186,381 @@
 | Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
 
 ---
+
+## Image Comparison 8
+
+| Original Image - **1015x1200** | Generated Image - **512x512** |
+|:--------------:|:---------------:|
+| <img src="8_paint_io/original.jpg" width="400" alt="Original Image 8"/> | <img src="8_paint_io/generated.png" width="400" alt="Generated Image 8"/> |
+| Original Image 8 - Painting  | Generated Image 8 - Model Output |
+
+### Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| Execution Time | 97.71 seconds |
+| GPU Model | NVIDIA GeForce GTX 1650 Ti |
+| GPU Memory Usage Change | 0.00 MB |
+
+### Similarity Metrics
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
+
+---
+
+## Image Comparison 9
+
+| Original Image - **900x1085** | Generated Image - **512x512** |
+|:--------------:|:---------------:|
+| <img src="9_paint_io/original.jpg" width="400" alt="Original Image 9"/> | <img src="9_paint_io/generated.png" width="400" alt="Generated Image 9"/> |
+| Original Image 9 -  Painting  | Generated Image 9 - Model Output |
+
+### Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| Execution Time | 97.71 seconds |
+| GPU Model | NVIDIA GeForce GTX 1650 Ti |
+| GPU Memory Usage Change | 0.00 MB |
+
+### Similarity Metrics
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
+
+---
+
+## Image Comparison 10
+
+| Original Image - **345x343** | Generated Image - **512x512** |
+|:--------------:|:---------------:|
+| <img src="10_paint_io/original.jpg" width="400" alt="Original Image 10"/> | <img src="10_paint_io/generated.png" width="400" alt="Generated Image 10"/> |
+| Original Image 10 -  Painting  | Generated Image 10 - Model Output |
+
+### Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| Execution Time | 97.71 seconds |
+| GPU Model | NVIDIA GeForce GTX 1650 Ti |
+| GPU Memory Usage Change | 0.00 MB |
+
+### Similarity Metrics
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
+
+---
+
+## Image Comparison 11
+
+| Original Image - **800x450** | Generated Image - **512x512** |
+|:--------------:|:---------------:|
+| <img src="11_paint_io/original.webp" width="400" alt="Original Image 11"/> | <img src="11_paint_io/generated.png" width="400" alt="Generated Image 11"/> |
+| Original Image 11 -  Painting  | Generated Image 11 - Model Output |
+
+### Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| Execution Time | 97.71 seconds |
+| GPU Model | NVIDIA GeForce GTX 1650 Ti |
+| GPU Memory Usage Change | 0.00 MB |
+
+### Similarity Metrics
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
+
+---
+
+## Image Comparison 12
+
+| Original Image - **1024x730** | Generated Image - **512x512** |
+|:--------------:|:---------------:|
+| <img src="12_paint_io/original.jpg" width="400" alt="Original Image 12"/> | <img src="12_paint_io/generated.png" width="400" alt="Generated Image 12"/> |
+| Original Image 12 -  Painting  | Generated Image 12 - Model Output |
+
+### Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| Execution Time | 97.71 seconds |
+| GPU Model | NVIDIA GeForce GTX 1650 Ti |
+| GPU Memory Usage Change | 0.00 MB |
+
+### Similarity Metrics
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
+
+---
+
+## Image Comparison 13
+
+| Original Image - **1000x508** | Generated Image - **512x512** |
+|:--------------:|:---------------:|
+| <img src="13_paint_io/original.jpg" width="400" alt="Original Image 13"/> | <img src="8_paint_io/generated.png" width="400" alt="Generated Image 13"/> |
+| Original Image 13 -  Painting  | Generated Image 13 - Model Output |
+
+### Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| Execution Time | 97.71 seconds |
+| GPU Model | NVIDIA GeForce GTX 1650 Ti |
+| GPU Memory Usage Change | 0.00 MB |
+
+### Similarity Metrics
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
+
+---
+
+## Image Comparison 14
+
+| Original Image - **640x640** | Generated Image - **512x512** |
+|:--------------:|:---------------:|
+| <img src="14_paint_io/original.png" width="400" alt="Original Image 14"/> | <img src="14_paint_io/generated.png" width="400" alt="Generated Image 14"/> |
+| Original Image 14 -  Painting  | Generated Image 14 - Model Output |
+
+### Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| Execution Time | 97.71 seconds |
+| GPU Model | NVIDIA GeForce GTX 1650 Ti |
+| GPU Memory Usage Change | 0.00 MB |
+
+### Similarity Metrics
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
+
+---
+
+## Image Comparison 15
+
+| Original Image - **1400x923** | Generated Image - **512x512** |
+|:--------------:|:---------------:|
+| <img src="15_paint_io/original.webp" width="400" alt="Original Image 15"/> | <img src="15_paint_io/generated.png" width="400" alt="Generated Image 15"/> |
+| Original Image 15 -  Painting  | Generated Image 15 - Model Output |
+
+### Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| Execution Time | 97.71 seconds |
+| GPU Model | NVIDIA GeForce GTX 1650 Ti |
+| GPU Memory Usage Change | 0.00 MB |
+
+### Similarity Metrics
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
+
+---
+
+## Image Comparison 16
+
+| Original Image - **800x800** | Generated Image - **512x512** |
+|:--------------:|:---------------:|
+| <img src="16_artwork_io/original.jpg" width="400" alt="Original Image 16"/> | <img src="16_artwork_io/generated.png" width="400" alt="Generated Image 16"/> |
+| Original Image 16 - Artwork  | Generated Image 16 - Model Output |
+
+### Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| Execution Time | 97.71 seconds |
+| GPU Model | NVIDIA GeForce GTX 1650 Ti |
+| GPU Memory Usage Change | 0.00 MB |
+
+### Similarity Metrics
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
+
+---
+
+## Image Comparison 17
+
+| Original Image - **800x800** | Generated Image - **512x512** |
+|:--------------:|:---------------:|
+| <img src="17_artwork_io/original.jpg" width="400" alt="Original Image 17"/> | <img src="17_artwork_io/generated.png" width="400" alt="Generated Image 17"/> |
+| Original Image 17 - Artwork  | Generated Image 17 - Model Output |
+
+### Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| Execution Time | 97.71 seconds |
+| GPU Model | NVIDIA GeForce GTX 1650 Ti |
+| GPU Memory Usage Change | 0.00 MB |
+
+### Similarity Metrics
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
+
+---
+
+## Image Comparison 18
+
+| Original Image - **800x800** | Generated Image - **512x512** |
+|:--------------:|:---------------:|
+| <img src="18_artwork_io/original.jpg" width="400" alt="Original Image 18"/> | <img src="18_artwork_io/generated.png" width="400" alt="Generated Image 18"/> |
+| Original Image 18 - Artwork  | Generated Image 18 - Model Output |
+
+### Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| Execution Time | 97.71 seconds |
+| GPU Model | NVIDIA GeForce GTX 1650 Ti |
+| GPU Memory Usage Change | 0.00 MB |
+
+### Similarity Metrics
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
+
+---
+
+## Image Comparison 19
+
+| Original Image - **800x800** | Generated Image - **512x512** |
+|:--------------:|:---------------:|
+| <img src="19_artwork_io/original.webp" width="400" alt="Original Image 19"/> | <img src="19_artwork_io/generated.png" width="400" alt="Generated Image 19"/> |
+| Original Image 19 - Artwork  | Generated Image 19 - Model Output |
+
+### Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| Execution Time | 97.71 seconds |
+| GPU Model | NVIDIA GeForce GTX 1650 Ti |
+| GPU Memory Usage Change | 0.00 MB |
+
+### Similarity Metrics
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
+
+---
+
+## Image Comparison 20
+
+| Original Image - **800x800** | Generated Image - **512x512** |
+|:--------------:|:---------------:|
+| <img src="20_artwork_io/original.jpg" width="400" alt="Original Image 20"/> | <img src="20_artwork_io/generated.png" width="400" alt="Generated Image 20"/> |
+| Original Image 20 - Artwork  | Generated Image 20 - Model Output |
+
+### Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| Execution Time | 97.71 seconds |
+| GPU Model | NVIDIA GeForce GTX 1650 Ti |
+| GPU Memory Usage Change | 0.00 MB |
+
+### Similarity Metrics
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
+
+---
+
+## Image Comparison 21
+
+| Original Image - **800x800** | Generated Image - **512x512** |
+|:--------------:|:---------------:|
+| <img src="21_artwork_io/original.webp" width="400" alt="Original Image 121"/> | <img src="21_artwork_io/generated.png" width="400" alt="Generated Image 21"/> |
+| Original Image 21 - Artwork  | Generated Image 21 - Model Output |
+
+### Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| Execution Time | 97.71 seconds |
+| GPU Model | NVIDIA GeForce GTX 1650 Ti |
+| GPU Memory Usage Change | 0.00 MB |
+
+### Similarity Metrics
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
+
+---
