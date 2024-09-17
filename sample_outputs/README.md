@@ -564,3 +564,57 @@
 | Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
 
 ---
+
+## Image Comparison 22
+
+| Original Image - **736x456** | Generated Image - **512x512** |
+|:--------------:|:---------------:|
+| <img src="22_cars_io/original.jpeg" width="400" alt="Original Image 22"/> | <img src="22_cars_io/generated.png" width="400" alt="Generated Image 22"/> |
+| Original Image 22 - Vehicles  | Generated Image 22 - Model Output |
+
+### Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| Execution Time | 97.71 seconds |
+| GPU Model | NVIDIA GeForce GTX 1650 Ti |
+| GPU Memory Usage Change | 0.00 MB |
+
+### Similarity Metrics
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
+
+---
+
+## Image Comparison 23
+
+| Original Image - **736x456** | Generated Image - **512x512** |
+|:--------------:|:---------------:|
+| <img src="23_cars_io/original.jpg" width="400" alt="Original Image 23"/> | <img src="23_cars_io/generated.png" width="400" alt="Generated Image 23"/> |
+| Original Image 23 - Vehicles  | Generated Image 23 - Model Output |
+
+### Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| Execution Time | 97.71 seconds |
+| GPU Model | NVIDIA GeForce GTX 1650 Ti |
+| GPU Memory Usage Change | 0.00 MB |
+
+### Similarity Metrics
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
+
+---
