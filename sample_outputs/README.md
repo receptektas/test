@@ -9,18 +9,17 @@
 
 | Metric | Value |
 |--------|-------|
-| Execution Time | 97.71 seconds |
+| Execution Time | 153.94 seconds |
 | GPU Model | NVIDIA GeForce GTX 1650 Ti |
-| GPU Memory Usage Change | 0.00 MB |
+| GPU Memory Usage Change | -112.29 MB |
 
-### Similarity Metrics
-
+#### Similarity Metrics
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
-| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| SSIM (Original vs Output) | 0.9923 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9976 | Çok Yüksek Benzerlik |
 | Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
-| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0207 | Yüksek Benzerlik |
 | Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
 
 ---
@@ -36,18 +35,17 @@
 
 | Metric | Value |
 |--------|-------|
-| Execution Time | 97.71 seconds |
+| Execution Time | 105.41 seconds |
 | GPU Model | NVIDIA GeForce GTX 1650 Ti |
 | GPU Memory Usage Change | 0.00 MB |
 
-### Similarity Metrics
-
+#### Similarity Metrics
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
-| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| SSIM (Original vs Output) | 0.9931 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9980 | Çok Yüksek Benzerlik |
 | Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
-| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0132 | Yüksek Benzerlik |
 | Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
 
 ---
@@ -63,18 +61,17 @@
 
 | Metric | Value |
 |--------|-------|
-| Execution Time | 97.71 seconds |
+| Execution Time | 606.66 seconds |
 | GPU Model | NVIDIA GeForce GTX 1650 Ti |
 | GPU Memory Usage Change | 0.00 MB |
 
-### Similarity Metrics
-
+#### Similarity Metrics
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
-| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
-| Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
-| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| SSIM (Original vs Output) | 0.9912 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9985 | Çok Yüksek Benzerlik |
+| Perceptual Loss (Original vs Output) | 0.0001 | Çok Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0133 | Yüksek Benzerlik |
 | Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
 
 ---
@@ -90,18 +87,17 @@
 
 | Metric | Value |
 |--------|-------|
-| Execution Time | 97.71 seconds |
+| Execution Time | 92.72 seconds |
 | GPU Model | NVIDIA GeForce GTX 1650 Ti |
 | GPU Memory Usage Change | 0.00 MB |
 
-### Similarity Metrics
-
+#### Similarity Metrics
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
-| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| SSIM (Original vs Output) | 0.9905 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9983 | Çok Yüksek Benzerlik |
 | Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
-| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0154 | Yüksek Benzerlik |
 | Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
 
 ---
@@ -117,18 +113,17 @@
 
 | Metric | Value |
 |--------|-------|
-| Execution Time | 97.71 seconds |
+| Execution Time | 448.20 seconds |
 | GPU Model | NVIDIA GeForce GTX 1650 Ti |
 | GPU Memory Usage Change | 0.00 MB |
 
-### Similarity Metrics
-
+#### Similarity Metrics
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
-| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
-| Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
-| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| SSIM (Original vs Output) | 0.9873 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9934 | Çok Yüksek Benzerlik |
+| Perceptual Loss (Original vs Output) | 0.0006 | Çok Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0512 | Yüksek Benzerlik |
 | Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
 
 ---
@@ -144,18 +139,17 @@
 
 | Metric | Value |
 |--------|-------|
-| Execution Time | 97.71 seconds |
+| Execution Time | 100.35 seconds |
 | GPU Model | NVIDIA GeForce GTX 1650 Ti |
 | GPU Memory Usage Change | 0.00 MB |
 
-### Similarity Metrics
-
+#### Similarity Metrics
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
-| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
-| Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
-| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| SSIM (Original vs Output) | 0.9908 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9985 | Çok Yüksek Benzerlik |
+| Perceptual Loss (Original vs Output) | 0.0001 | Çok Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0124 | Yüksek Benzerlik |
 | Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
 
 ---
@@ -171,18 +165,17 @@
 
 | Metric | Value |
 |--------|-------|
-| Execution Time | 97.71 seconds |
+| Execution Time | 286.12 seconds |
 | GPU Model | NVIDIA GeForce GTX 1650 Ti |
 | GPU Memory Usage Change | 0.00 MB |
 
-### Similarity Metrics
-
+#### Similarity Metrics
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
-| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
-| Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
-| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| SSIM (Original vs Output) | 0.9920 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9991 | Çok Yüksek Benzerlik |
+| Perceptual Loss (Original vs Output) | 0.0001 | Çok Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0138 | Yüksek Benzerlik |
 | Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
 
 ---
@@ -198,18 +191,17 @@
 
 | Metric | Value |
 |--------|-------|
-| Execution Time | 97.71 seconds |
+| Execution Time | 100.87 seconds |
 | GPU Model | NVIDIA GeForce GTX 1650 Ti |
 | GPU Memory Usage Change | 0.00 MB |
 
-### Similarity Metrics
-
+#### Similarity Metrics
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
-| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| SSIM (Original vs Output) | 0.9898 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9979 | Çok Yüksek Benzerlik |
 | Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
-| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0162 | Yüksek Benzerlik |
 | Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
 
 ---
@@ -225,18 +217,17 @@
 
 | Metric | Value |
 |--------|-------|
-| Execution Time | 97.71 seconds |
+| Execution Time | 200.20 seconds |
 | GPU Model | NVIDIA GeForce GTX 1650 Ti |
 | GPU Memory Usage Change | 0.00 MB |
 
-### Similarity Metrics
-
+#### Similarity Metrics
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
-| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| SSIM (Original vs Output) | 0.9887 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9945 | Çok Yüksek Benzerlik |
 | Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
-| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0264 | Yüksek Benzerlik |
 | Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
 
 ---
@@ -256,8 +247,7 @@
 | GPU Model | NVIDIA GeForce GTX 1650 Ti |
 | GPU Memory Usage Change | 0.00 MB |
 
-### Similarity Metrics
-
+#### Similarity Metrics
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
 | SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
@@ -279,18 +269,17 @@
 
 | Metric | Value |
 |--------|-------|
-| Execution Time | 97.71 seconds |
+| Execution Time | 96.61 seconds |
 | GPU Model | NVIDIA GeForce GTX 1650 Ti |
 | GPU Memory Usage Change | 0.00 MB |
 
-### Similarity Metrics
-
+#### Similarity Metrics
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
 | SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
-| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9985 | Çok Yüksek Benzerlik |
 | Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
-| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0187 | Yüksek Benzerlik |
 | Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
 
 ---
@@ -306,18 +295,17 @@
 
 | Metric | Value |
 |--------|-------|
-| Execution Time | 97.71 seconds |
+| Execution Time | 796.35 seconds |
 | GPU Model | NVIDIA GeForce GTX 1650 Ti |
 | GPU Memory Usage Change | 0.00 MB |
 
-### Similarity Metrics
-
+#### Similarity Metrics
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
-| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| SSIM (Original vs Output) | 0.9893 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9985 | Çok Yüksek Benzerlik |
 | Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
-| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0155 | Yüksek Benzerlik |
 | Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
 
 ---
@@ -333,18 +321,17 @@
 
 | Metric | Value |
 |--------|-------|
-| Execution Time | 97.71 seconds |
+| Execution Time | 105.73 seconds |
 | GPU Model | NVIDIA GeForce GTX 1650 Ti |
-| GPU Memory Usage Change | 0.00 MB |
+| GPU Memory Usage Change | 507.68 MB |
 
-### Similarity Metrics
-
+#### Similarity Metrics
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
-| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
-| Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
-| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| SSIM (Original vs Output) | 0.9909 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9994 | Çok Yüksek Benzerlik |
+| Perceptual Loss (Original vs Output) | 0.0001 | Çok Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0139 | Yüksek Benzerlik |
 | Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
 
 ---
@@ -360,18 +347,17 @@
 
 | Metric | Value |
 |--------|-------|
-| Execution Time | 97.71 seconds |
+| Execution Time | 349.89 seconds |
 | GPU Model | NVIDIA GeForce GTX 1650 Ti |
-| GPU Memory Usage Change | 0.00 MB |
+| GPU Memory Usage Change | -0.28 MB |
 
-### Similarity Metrics
-
+#### Similarity Metrics
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
-| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| SSIM (Original vs Output) | 0.9915 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9968 | Çok Yüksek Benzerlik |
 | Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
-| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0208 | Yüksek Benzerlik |
 | Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
 
 ---
@@ -387,18 +373,17 @@
 
 | Metric | Value |
 |--------|-------|
-| Execution Time | 97.71 seconds |
+| Execution Time | 339.10 seconds |
 | GPU Model | NVIDIA GeForce GTX 1650 Ti |
 | GPU Memory Usage Change | 0.00 MB |
 
-### Similarity Metrics
-
+#### Similarity Metrics
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
-| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| SSIM (Original vs Output) | 0.9914 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9969 | Çok Yüksek Benzerlik |
 | Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
-| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0169 | Yüksek Benzerlik |
 | Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
 
 ---
@@ -414,18 +399,17 @@
 
 | Metric | Value |
 |--------|-------|
-| Execution Time | 97.71 seconds |
+| Execution Time | 592.36 seconds |
 | GPU Model | NVIDIA GeForce GTX 1650 Ti |
 | GPU Memory Usage Change | 0.00 MB |
 
-### Similarity Metrics
-
+#### Similarity Metrics
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
-| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| SSIM (Original vs Output) | 0.9914 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9959 | Çok Yüksek Benzerlik |
 | Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
-| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0154 | Yüksek Benzerlik |
 | Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
 
 ---
@@ -441,18 +425,17 @@
 
 | Metric | Value |
 |--------|-------|
-| Execution Time | 97.71 seconds |
+| Execution Time | 404.72 seconds |
 | GPU Model | NVIDIA GeForce GTX 1650 Ti |
 | GPU Memory Usage Change | 0.00 MB |
 
-### Similarity Metrics
-
+#### Similarity Metrics
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
-| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| SSIM (Original vs Output) | 0.9885 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9979 | Çok Yüksek Benzerlik |
 | Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
-| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0172 | Yüksek Benzerlik |
 | Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
 
 ---
@@ -468,18 +451,17 @@
 
 | Metric | Value |
 |--------|-------|
-| Execution Time | 97.71 seconds |
+| Execution Time | 307.56 seconds |
 | GPU Model | NVIDIA GeForce GTX 1650 Ti |
 | GPU Memory Usage Change | 0.00 MB |
 
-### Similarity Metrics
-
+#### Similarity Metrics
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
-| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| SSIM (Original vs Output) | 0.9904 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9983 | Çok Yüksek Benzerlik |
 | Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
-| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0171 | Yüksek Benzerlik |
 | Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
 
 ---
@@ -495,18 +477,17 @@
 
 | Metric | Value |
 |--------|-------|
-| Execution Time | 97.71 seconds |
+| Execution Time | 633.73 seconds |
 | GPU Model | NVIDIA GeForce GTX 1650 Ti |
 | GPU Memory Usage Change | 0.00 MB |
 
-### Similarity Metrics
-
+#### Similarity Metrics
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
-| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| SSIM (Original vs Output) | 0.9895 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9950 | Çok Yüksek Benzerlik |
 | Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
-| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0224 | Yüksek Benzerlik |
 | Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
 
 ---
@@ -522,18 +503,17 @@
 
 | Metric | Value |
 |--------|-------|
-| Execution Time | 97.71 seconds |
+| Execution Time | 450.47 seconds |
 | GPU Model | NVIDIA GeForce GTX 1650 Ti |
 | GPU Memory Usage Change | 0.00 MB |
 
-### Similarity Metrics
-
+#### Similarity Metrics
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
-| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| SSIM (Original vs Output) | 0.9905 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9975 | Çok Yüksek Benzerlik |
 | Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
-| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0172 | Yüksek Benzerlik |
 | Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
 
 ---
@@ -549,18 +529,17 @@
 
 | Metric | Value |
 |--------|-------|
-| Execution Time | 97.71 seconds |
+| Execution Time | 72081.05 seconds |
 | GPU Model | NVIDIA GeForce GTX 1650 Ti |
 | GPU Memory Usage Change | 0.00 MB |
 
-### Similarity Metrics
-
+#### Similarity Metrics
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
-| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| SSIM (Original vs Output) | 0.9884 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9988 | Çok Yüksek Benzerlik |
 | Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
-| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0153 | Yüksek Benzerlik |
 | Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
 
 ---
@@ -576,18 +555,17 @@
 
 | Metric | Value |
 |--------|-------|
-| Execution Time | 97.71 seconds |
+| Execution Time | 135.18 seconds |
 | GPU Model | NVIDIA GeForce GTX 1650 Ti |
 | GPU Memory Usage Change | 0.00 MB |
 
-### Similarity Metrics
-
+#### Similarity Metrics
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
-| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| SSIM (Original vs Output) | 0.9898 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9984 | Çok Yüksek Benzerlik |
 | Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
-| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0146 | Yüksek Benzerlik |
 | Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
 
 ---
@@ -603,18 +581,17 @@
 
 | Metric | Value |
 |--------|-------|
-| Execution Time | 97.71 seconds |
+| Execution Time | 157.97 seconds |
 | GPU Model | NVIDIA GeForce GTX 1650 Ti |
 | GPU Memory Usage Change | 0.00 MB |
 
-### Similarity Metrics
-
+#### Similarity Metrics
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
-| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| SSIM (Original vs Output) | 0.9920 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9980 | Çok Yüksek Benzerlik |
 | Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
-| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0144 | Yüksek Benzerlik |
 | Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
 
 ---
@@ -630,18 +607,17 @@
 
 | Metric | Value |
 |--------|-------|
-| Execution Time | 97.71 seconds |
+| Execution Time | 140.17 seconds |
 | GPU Model | NVIDIA GeForce GTX 1650 Ti |
 | GPU Memory Usage Change | 0.00 MB |
 
-### Similarity Metrics
-
+#### Similarity Metrics
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
-| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
-| Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
-| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| SSIM (Original vs Output) | 0.9900 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9945 | Çok Yüksek Benzerlik |
+| Perceptual Loss (Original vs Output) | 0.0003 | Çok Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0370 | Yüksek Benzerlik |
 | Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
 
 ---
@@ -657,18 +633,17 @@
 
 | Metric | Value |
 |--------|-------|
-| Execution Time | 97.71 seconds |
+| Execution Time | 155.36 seconds |
 | GPU Model | NVIDIA GeForce GTX 1650 Ti |
 | GPU Memory Usage Change | 0.00 MB |
 
-### Similarity Metrics
-
+#### Similarity Metrics
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
-| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
-| Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
-| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| SSIM (Original vs Output) | 0.9877 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9968 | Çok Yüksek Benzerlik |
+| Perceptual Loss (Original vs Output) | 0.0001 | Çok Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0165 | Yüksek Benzerlik |
 | Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
 
 ---
@@ -684,18 +659,17 @@
 
 | Metric | Value |
 |--------|-------|
-| Execution Time | 97.71 seconds |
+| Execution Time | 155.36 seconds |
 | GPU Model | NVIDIA GeForce GTX 1650 Ti |
 | GPU Memory Usage Change | 0.00 MB |
 
-### Similarity Metrics
-
+#### Similarity Metrics
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
-| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
-| Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
-| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| SSIM (Original vs Output) | 0.9877 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9968 | Çok Yüksek Benzerlik |
+| Perceptual Loss (Original vs Output) | 0.0001 | Çok Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0165 | Yüksek Benzerlik |
 | Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
 
 ---
@@ -711,18 +685,17 @@
 
 | Metric | Value |
 |--------|-------|
-| Execution Time | 97.71 seconds |
+| Execution Time | 164.35 seconds |
 | GPU Model | NVIDIA GeForce GTX 1650 Ti |
 | GPU Memory Usage Change | 0.00 MB |
 
-### Similarity Metrics
-
+#### Similarity Metrics
 | Metric | Value | Interpretation |
 |--------|-------|----------------|
-| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
-| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
-| Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
-| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| SSIM (Original vs Output) | 0.9909 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9977 | Çok Yüksek Benzerlik |
+| Perceptual Loss (Original vs Output) | 0.0001 | Çok Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0142 | Yüksek Benzerlik |
 | Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
 
 ---
