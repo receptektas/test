@@ -618,3 +618,113 @@
 | Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
 
 ---
+
+## Image Comparison 24
+
+| Original Image - **736x456** | Generated Image - **512x512** |
+|:--------------:|:---------------:|
+| <img src="24_human_io/original.png" width="400" alt="Original Image 5"/> | <img src="24_human_io/generated.png" width="400" alt="Generated Image 24"/> |
+| Original Image 24 - Portraits and People  | Generated Image 24 - Model Output |
+
+### Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| Execution Time | 97.71 seconds |
+| GPU Model | NVIDIA GeForce GTX 1650 Ti |
+| GPU Memory Usage Change | 0.00 MB |
+
+### Similarity Metrics
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
+
+---
+
+## Image Comparison 25
+
+| Original Image - **736x456** | Generated Image - **512x512** |
+|:--------------:|:---------------:|
+| <img src="25_people_io/original.jpg" width="400" alt="Original Image 25"/> | <img src="25_people_io/generated.png" width="400" alt="Generated Image 25"/> |
+| Original Image 25 - Portraits and People  | Generated Image 25 - Model Output |
+
+### Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| Execution Time | 97.71 seconds |
+| GPU Model | NVIDIA GeForce GTX 1650 Ti |
+| GPU Memory Usage Change | 0.00 MB |
+
+### Similarity Metrics
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
+
+---
+
+## Image Comparison 26
+
+| Original Image - **736x456** | Generated Image - **512x512** |
+|:--------------:|:---------------:|
+| <img src="26_people_io/original.png" width="400" alt="Original Image 26"/> | <img src="26_people_io/generated.png" width="400" alt="Generated Image 26"/> |
+| Original Image 26 - Portraits and People  | Generated Image 26 - Model Output |
+
+### Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| Execution Time | 97.71 seconds |
+| GPU Model | NVIDIA GeForce GTX 1650 Ti |
+| GPU Memory Usage Change | 0.00 MB |
+
+### Similarity Metrics
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
+
+---
+
+## Image Comparison 27
+
+| Original Image - **736x456** | Generated Image - **512x512** |
+|:--------------:|:---------------:|
+| <img src="27_people_io/original.jpg" width="400" alt="Original Image 27"/> | <img src="27_people_io/generated.png" width="400" alt="Generated Image 27"/> |
+| Original Image 27 - Portraits and People  | Generated Image 27 - Model Output |
+
+### Performance Metrics
+
+| Metric | Value |
+|--------|-------|
+| Execution Time | 97.71 seconds |
+| GPU Model | NVIDIA GeForce GTX 1650 Ti |
+| GPU Memory Usage Change | 0.00 MB |
+
+### Similarity Metrics
+
+| Metric | Value | Interpretation |
+|--------|-------|----------------|
+| SSIM (Original vs Output) | 0.9917 | Çok Yüksek Benzerlik |
+| Feature Similarity (Original vs Output) | 0.9970 | Çok Yüksek Benzerlik |
+| Perceptual Loss (Original vs Output) | 0.0002 | Çok Yüksek Benzerlik |
+| Content Loss (Original vs Output) | 0.0140 | Yüksek Benzerlik |
+| Style Loss (Original vs Output) | 0.0000 | Çok Yüksek Benzerlik |
+
+---
+
+
